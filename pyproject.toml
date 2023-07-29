@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pdf-summarizer"
+version = "0.1.0"
+description = ""
+authors = ["sor4chi <sorakawa0218@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pdf_summarizer"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.247"
+gradio = "^3.39.0"
+openai = "^0.27.8"
+pypdf = "^3.13.0"
+tiktoken = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
